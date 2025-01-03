@@ -1,3 +1,4 @@
+"""
 # Django 5 Project Structure
 myproject/
     ├── manage.py                  # Project management script
@@ -61,6 +62,8 @@ python_files = ["test_*.py", "*_test.py"]
 [tool.black]
 line-length = 88
 include = '\.pyi?$'
+
+"""
 
 # 2. Core Application Configuration (apps/core/apps.py)
 from django.apps import AppConfig
